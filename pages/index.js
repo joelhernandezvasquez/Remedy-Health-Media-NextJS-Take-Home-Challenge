@@ -1,3 +1,13 @@
-export default () => (
-  <div>NextJS App is running</div>
+
+
+import Home from './Home' 
+
+const App = () =>(
+<div>
+  hello
+  <Home/>
+</div>
 )
+export default App;
+  
+
